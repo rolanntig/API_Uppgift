@@ -35,7 +35,7 @@ async function Product() {
 
             //carPrice
             let carPrice = document.createElement("h1");
-            carPrice.textContent = `$${item.price}`;
+            carPrice.textContent = `₽${item.price}`;
 
             carContainer.appendChild(carName);
             carContainer.appendChild(carImg);
